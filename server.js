@@ -3,9 +3,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = require('./index');
-
-
-
 const port = process.env.SERVER_PORT;
 
 const server = http.createServer(app);
